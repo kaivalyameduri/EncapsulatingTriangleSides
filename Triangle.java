@@ -226,13 +226,14 @@ public class Triangle {
 		}
 	}
 	
-	//
+	//Print method for object
 	public String toString(){
 		double a = this.sideA;
 		double b = this.sideB;
 		double c = this.sideC;
-		String answer = String.format("%s(%.4f, %.4f)", POLYGONSHAPE, a, b, c);
-		return answer;		
+		String answer = String.format("%s(%.4f, %.4f, %.4f)", POLYGONSHAPE, a, b, c);
+		return answer;
+		
 	}	
 }
 
